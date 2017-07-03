@@ -1,0 +1,362 @@
+
+body {
+	background-color: #f7cd51;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.8rem;
+	color: #fbb140;
+		/*Neleidzia select'int teksto*/
+	cursor: default;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ 	 overflow-x: visible;
+
+}
+h2 {
+	color: white;
+	margin: 40px;
+}
+h3 {
+	color: white;
+	text-align: center;
+}
+
+h4 {
+	color: #e8436c;
+}
+
+textarea {
+	color: #e8436c;
+}
+header {
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../storage/obuoliulogo.gif);
+	width: 100%;
+	position: relative;
+	background-size: 230px;
+
+}
+form {
+	text-align: center;
+}
+.borders > .container {
+	border: 3px solid black;
+	background-image: url(../storage/juices.jpg);
+	background-position: center;	
+	background-size: cover;
+}
+#text > h3 {
+	color: white;
+	text-align: center;
+}
+.mainnavigation ul li{
+	list-style: none;
+	display: inline-block;
+}
+.mainnavigation ul li a {
+	color: black;
+	font-size: 2rem;
+}
+
+.mainnavigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+	width: 100%;
+	pointer-events:none;
+
+}
+
+table{
+	width: 600px;
+	background-color: #18191b;
+	opacity: 0.9;
+	margin-top: 20px;
+}
+
+table td {
+	width: 500px;
+}
+
+.thumbnail {
+	background-color: rgba(60, 100, 50, 0.3);
+	margin: 30px;
+
+}
+p {
+	color: white;
+}
+
+ul li {
+	color: white;
+}
+
+li a {
+	color: black;
+}
+
+.contact {
+	text-align: center;
+}
+
+.mainnavigation > ul > li a:hover {
+	background-color: unset;
+	color: white;
+	transition: 1s all;
+}
+
+.collapse ul  li a:hover {
+	background-color: unset;
+	color: white;
+	transition: 1s all;
+}
+
+tr {
+	color: white;
+}
+
+th {
+	color: grey;
+	text-align: center;
+}
+
+.contactstwo {
+	background-color: background-color: rgba(60, 100, 50, 0.6);;
+	opacity: 0.8;
+	margin-top: 20px;
+}
+
+.fa  {
+	margin-top: -5px;
+}
+.aboutUs {
+	opacity: 0.7;
+	
+}
+.aboutUs  {
+	color:#eb573d;
+}
+.connectbtn {
+	background-color: #e8436c;
+	border-radius: 10px;
+	padding: 3px;
+	color: white;
+	margin-bottom: 5px;
+	opacity: 0.8;
+	transition: 1s all ease-in-out;
+}
+.container  .connectbtnhover:hover {
+	transition: 1s all ease-in-out;
+	color: white;
+
+}
+
+.container  .connectbtnhover a:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 1;
+	transition: 1s all ease-in-out;
+}
+
+#vertical_text{
+	position: absolute;
+	background-color: rgba(234,87,60, 0.3);
+	font-size: 5rem;
+	width: 100%;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	text-align: center;
+	display: none;
+	bottom: 0;
+	right: 0;
+}
+
+#vertical_text2{
+	position: absolute;
+	background-color: rgba(234,87,60, 0.3);
+	width: 100%;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	text-align: right;
+	display: none;
+	top: 0;
+}
+
+#vertical_text2 h3 {
+	margin-right: 400px;
+	color: white;
+	text-align: right;
+}
+
+#vertical_text h3 {
+	color: white;
+}
+
+#text {
+	position: absolute;
+	background-color: rgba(234,87,60, 0.6);
+	width: 100%;
+	height: auto;
+	display: none;
+	top: 0;
+	color: #fbb140;
+	margin-left: -15px;
+}
+
+#text2 {
+	position: absolute;
+	
+	width: 100%;
+	height: auto;
+	display: none;
+	top: 0;
+	color: #fbb140;
+	margin-left: -15px;
+}
+
+footer {
+	position: relative;
+}
+
+.xx1 {
+	background-image: url(../storage/statybine.jpg);
+	background-size: cover;
+	height: 600px;
+	border: 3px solid black;
+	transition: 0.7s ease-in-out;
+
+}	
+
+.xx2 {
+	background-image: url(../storage/dega.jpg);
+	background-size: cover;
+	height: 600px;
+	border: 3px solid black;
+	transition: 0.7s ease-in-out;
+}	
+
+.xx3 {
+	background-image: url(../storage/obuoliai.jpg);
+	background-size: cover;
+	height: 600px;
+	border: 3px solid black;
+	transition: 0.7s ease-in-out;
+}	
+
+.xx1:hover{
+ 
+   background-position: 50% 0;
+ }
+
+.xx2:hover{
+ background-position: 50% 0;
+ }
+
+.xx3:hover{
+  
+ background-position: 50% 0;
+ }
+
+#vertical_text3{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 220px
+}
+
+#vertical_text4{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 470px;
+}
+
+#vertical_text5{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 220px
+}
+#vertical_text6{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 470px;
+}
+
+#vertical_text7{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 220px
+}
+#vertical_text8{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 470px;
+}
+
+.mainpage h2 {
+	color: white;
+	text-align: center;
+
+
+}
+#mainheadinglogo {
+	background-color: white;
+	width: 200px;
+	vertical-align: middle;
+	opacity: 0.8;
+
+}
+.container2 {
+	margin-left: 10%;
+	margin-right: 10%
+	
+}
+
+.logoback {
+	width: 100%;
+	background-color: white;
+	opacity: 0.6;
+}
+
+.mainpage {
+	margin-top: 5%;
+	
+}

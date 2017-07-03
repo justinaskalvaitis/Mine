@@ -1,0 +1,381 @@
+body {
+	background-color: #18191b;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.8rem;
+	color: #fbb140;
+		/*Neleidzia select'int teksto*/
+	cursor: default;
+	
+}
+h2 {
+	color: #eb573d;
+	margin: 40px;
+}
+h3 {
+	color: #eb573d;
+	text-align: center;
+}
+header {
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../storage/mainlogo.gif);
+	width: 100%;
+	position: relative;
+}
+form {
+	text-align: center;
+}
+.borders > .container {
+	border: 3px solid grey;
+	background-image: url(../storage/containerbackground.jpg);
+	background-size: cover;
+}
+#text > h3 {
+	color: #eb573d;
+	text-align: center;
+}
+.mainnavigation ul li{
+	list-style: none;
+	display: inline-block;
+}
+.mainnavigation ul li a {
+	color: grey;
+	font-size: 2rem;
+}
+
+.mainnavigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+	width: 100%;
+	margin-top: 10px;
+}
+
+table{
+	width: 600px;
+	background-color: #18191b;
+	opacity: 0.9;
+	margin-top: 20px;
+}
+
+table td {
+	width: 500px;
+}
+
+.thumbnail {
+	background-color: #18191b;
+	margin: 30px;
+	opacity: 0.9;
+}
+p {
+	color: #eb573d
+}
+
+ul li {
+	color: #eb573d;
+}
+
+li a {
+	color: grey;
+}
+
+.contact {
+	text-align: center;
+}
+
+.mainnavigation > ul > li a:hover {
+	background-color: unset;
+	color: white;
+	transition: 1s all;
+}
+
+.collapse ul  li a:hover {
+	background-color: unset;
+	color: white;
+	transition: 1s all;
+}
+
+tr {
+	color: #eb573d;
+}
+
+th {
+	text-align: center;
+}
+
+.contactstwo {
+	background-color: #18191b;
+	opacity: 0.8;
+	margin-top: 20px;
+}
+
+.fa  {
+	margin-top: -5px;
+}
+.aboutUs {
+	opacity: 0.7;
+	
+}
+.aboutUs  {
+	color:#eb573d;
+}
+.connectbtn {
+	background-color: #eb573d;
+	border-radius: 10px;
+	padding: 3px;
+	color: white;
+	margin-bottom: 5px;
+}
+.container  .connectbtnhover:hover {
+	transform:scale(1.1);
+	transition: 1s all;
+}
+
+.container  .connectbtnhover a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#vertical_text{
+	position: absolute;
+	background-color: rgba(37, 34, 34, 0.6);
+	font-size: 5rem;
+	width: 100%;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	text-align: center;
+	display: none;
+	bottom: 0;
+	right: 0;
+}
+
+#vertical_text2{
+	position: absolute;
+	background-color: rgba(37, 34, 34, 0.6);
+	width: 100%;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	text-align: right;
+	display: none;
+	top: 0;
+}
+
+#vertical_text2 h3 {
+	margin-right: 400px;
+	color: #eb573d;
+	text-align: right;
+}
+
+#vertical_text h3 {
+	color: white;
+}
+
+#text {
+	position: absolute;
+	background-color: rgba(37, 34, 34, 0.6);
+	width: 100%;
+	height: auto;
+	display: none;
+	top: 0;
+	color: #fbb140;
+	margin-left: -15px;
+}
+
+#text2 {
+	position: absolute;
+	
+	width: 100%;
+	height: auto;
+	display: none;
+	top: 0;
+	color: #fbb140;
+	margin-left: -15px;
+}
+
+footer {
+	position: relative;
+}
+
+.xx1 {
+	background-image: url(../storage/statybine.jpg);
+	background-size: cover;
+	height: 600px;
+	border: 3px solid black;
+	transition: 0.7s ease-in-out;
+
+}	
+
+.xx2 {
+	background-image: url(../storage/dega.jpg);
+	background-size: cover;
+	height: 600px;
+	border: 3px solid black;
+	transition: 0.7s ease-in-out;
+}	
+
+.xx3 {
+	background-image: url(../storage/obuoliai.jpg);
+	background-size: cover;
+	height: 600px;
+	border: 3px solid black;
+	transition: 0.7s ease-in-out;
+}		
+
+.xx4 {
+	background-image: url(../storage/brick.jpg);
+	background-size: cover;
+	height: 600px;
+	border: 3px solid black;
+	transition: 0.7s ease-in-out;
+}
+
+.xx1:hover{
+ 
+   background-position: 50% 0;
+ }
+
+.xx2:hover{
+ background-position: 50% 0;
+ }
+
+.xx3:hover{
+  
+ background-position: 50% 0;
+ }
+
+ .xx4:hover{
+  
+ background-position: 50% 0;
+ }
+
+#vertical_text3{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 220px
+}
+
+#vertical_text4{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 470px;
+}
+
+#vertical_text5{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 220px
+}
+#vertical_text6{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 470px;
+}
+
+#vertical_text7{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 220px
+}
+#vertical_text8{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 470px;
+}
+
+#vertical_text9{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 10px
+}
+#vertical_text10{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	width: 95%;
+
+	color: white;
+	text-align: right;
+	display: none;
+	font-family: 'Comfortaa', cursive;
+	top: 160px;
+}
+
+.mainpage h2 {
+	color: white;
+	text-align: center;
+
+
+}
+#mainheadinglogo {
+	background-color: white;
+	width: 200px;
+	vertical-align: middle;
+	opacity: 0.8;
+
+}
+.container2 {
+	margin-left: 10%;
+	margin-right: 10%
+	
+}
+
+.logoback {
+	width: 100%;
+	background-color: white;
+	opacity: 0.6;
+}
+
+.mainpage {
+	margin-top: 5%;
+	
+}
+
+input, select, textarea{
+    color: black;
+}
+
+textarea {
+   color:black;
+}
+
+
